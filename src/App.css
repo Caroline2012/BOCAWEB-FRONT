@@ -1,0 +1,103 @@
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  min-height: 100vh;
+  background-color:rgba(241, 238, 238, 0.801);
+  padding: 30px;
+}
+
+.listaodas{
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+
+.lista-content:hover{
+  transition: all ease-in-out .2s;
+  transform: scale(1.2);
+}
+
+.lista-content h1{
+  font-weight:700;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.lista-content h2{
+  margin-top: 5px;
+  font-family: 'Copse', serif;
+  font-size: 20px;
+  color: #ca5400e3;
+}
+
+.lista-content b{
+  color: #054233;
+}
+
+.cabecalho img {
+  background-image: linear-gradient(to bottom, #f36f10e3 5%, #3ea087 50%, rgba(241, 238, 238, 0.801) 100%);
+  border-left: 8px solid #f36f10c0;
+  border-right: 8px solid #f36f10c0;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.lista-content {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  background-color:#44b99c;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+
+.busca{
+  display: flex;
+  justify-content: center;
+}
+
+.busca input{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  padding: 8px;
+  padding-right: 150px;
+}
+
+.cabecalho h1{
+  font-weight:lighter;
+	font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 50px;
+	background-image: linear-gradient(to bottom, #3ea087 20%, #f36f10e3 100%, white 10%);
+	text-align: center;
+	padding: 20px;
+}
+
+.rodape{
+  font-size: 18px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.instituto{
+  font-weight: 600;
+  box-shadow: inset 0 0 30px 5px #994306;
+  text-align: center;
+  padding: 15px;
+  background-color: #f36d10;
+}
+
+.instituto:hover{
+  transition: all ease-in-out .2s;
+  transform: scale(1.01);
+}
+
+.user{
+  box-shadow: inset 0 0 30px 5px #0c6851;
+  text-align: center;
+  padding: 15px;
+  background-color: #3ea087;
+
+}
+
+.user:hover{
+  transition: all ease-in-out .2s;
+  transform: scale(1.01);
+}
